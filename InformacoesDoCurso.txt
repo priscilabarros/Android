@@ -7,7 +7,6 @@ Arquivo com as configurações dos componentes principais do app
 Componente Aplication: é o componente principal do app, as activitys 
 serão registradas nele.
 
-
 * Activity
 é um ponto de entrada para a execução de um app.
 Uma Activity possui uma View: mostra uma layout visual para o usuario.
