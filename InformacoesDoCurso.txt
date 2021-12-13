@@ -1,6 +1,6 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 1: parte 10 11:34
+Aula 1: parte 10 - 11:34
 
 * Manifest
 Arquivo com as configurações dos componentes principais do app
