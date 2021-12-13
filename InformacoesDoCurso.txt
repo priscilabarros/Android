@@ -1,6 +1,24 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 1 - parte 7
+Aula 1: parte 10 11:34
+
+* Manifest
+Arquivo com as configurações dos componentes principais do app
+Componente Aplication: é o componente principal do app, as activitys 
+serão registradas nele.
+
+
+* Activity
+é um ponto de entrada para a execução de um app.
+Uma Activity possui uma View: mostra uma layout visual para o usuario.
+E também possui Lógica: código Java
+Para criação de uma Activity é necessário uma classe para representa-la.
+Atalho para criar alguma coisa em um pacote: ALT+insert
+
+* Problemas de Memória no gradle
+Se houver falha por falta de espaço na JVM você pode ir ate a aba Android 
+na parte Gradle no arquivo gradle.propertys e comenta a linha com 
+org.gradle.jwarqs-Xmx1536m depois clica em try again 
 
 * Ferramentas 
 Android Studio, Android SDK, Linguagen Java
