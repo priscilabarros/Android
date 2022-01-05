@@ -1,6 +1,10 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 1: parte 10 - 11:34
+Aula 1: parte 12 - iniciar
+
+*Emulador:
+Foi necessário baixar e instalar o HAX https://github.com/intel/haxm/releases/tag/v7.7.0 para que 
+o emulador funcionasse.
 
 * Manifest
 Arquivo com as configurações dos componentes principais do app
@@ -20,9 +24,12 @@ EX:
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Agenda">
-        <activity android:name=".MainActivity">
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER"/>
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
     </application>
 </manifest>
