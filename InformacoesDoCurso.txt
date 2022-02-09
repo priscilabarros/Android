@@ -1,6 +1,6 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 1: parte 12 - iniciar
+Aula 1: parte 12 - iniciar e fazer o push pelo android studio
 
 *Emulador:
 Foi necessário baixar e instalar o HAX https://github.com/intel/haxm/releases/tag/v7.7.0 para que 
