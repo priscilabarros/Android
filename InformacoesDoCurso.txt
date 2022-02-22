@@ -1,6 +1,27 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 1: parte 12 - iniciar 
+Aula 2: parte 1 - iniciar
+
+* Toast - componente capaz de mostrar mensagens, ele mostra amensagem e depois desaparece 
+Ex de Toast:  Toast.makeText(context: this, "Hello ", Toast.LENGTH_SHORT).show();
+1º Argumento : context - é uma classe base para qualquer tipo de entidade do Android, é a partir 
+dela que se identifica da onde vem uma ação.
+
+2º Argumento : text - mensagem que irá aparecer.
+
+3º Argumento : tempo de aparição na tela - Toast.LENGTH_SHORT indica que irá 
+aparecer por um breve momento. Ou pode ser usado o Toast.LENGTH_LONG que 
+demora um pouco mais para desaparecer da tela.
+ 
+* Ciclos de Vida - São os estados mantidos pelas entidades do Android. Ex:
+Terá um estado de criação para a Activity, ou então um outro estado poderá
+destruir uma activity. 
+
+Assim podemos adicionar comportamentos quando uma activity for criada tendo assim
+a capacidade de sobrescrever comportamentos. Podendo escrever um método no qual
+vá pegar um estado específico.
+
+* Activity - Adiciona comportamentos, views para o projeto. Ex: um estador pode 
 
 * consegui dar push pelo android mas apaguei os arquivos do projeto
 criar um novo projeto e refazer tudo e passar para o git ou desfazer a besteirada =[ :
