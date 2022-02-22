@@ -1,6 +1,12 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 1: parte 12 - iniciar e fazer o push pelo android studio
+Aula 1: parte 12 - iniciar ( consegui dar push pelo android mas apaguei os arquivos do projeto
+criar um novo projeto e refazer tudo e passar para o git ou desfazer a besteirada =[ )
+
+*Android Token :
+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 válido por 30 dias.
+Através do Token foi possivel o push pelo Android studio mas ele criou um novo branch, ele fez push 
+pelo branch Master e eu estava fazendo push manual antes pelo branch Main. 
 
 *Emulador:
 Foi necessário baixar e instalar o HAX https://github.com/intel/haxm/releases/tag/v7.7.0 para que 
