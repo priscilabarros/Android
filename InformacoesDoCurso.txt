@@ -1,7 +1,16 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 1: parte 12 - iniciar ( consegui dar push pelo android mas apaguei os arquivos do projeto
-criar um novo projeto e refazer tudo e passar para o git ou desfazer a besteirada =[ )
+Aula 1: parte 12 - iniciar 
+
+* consegui dar push pelo android mas apaguei os arquivos do projeto
+criar um novo projeto e refazer tudo e passar para o git ou desfazer a besteirada =[ :
+Não foi necessário criar um novo projeto e refazer tudo, foi feito uma regressão de versão localmente
+para a versão onde o projeto fucionava corretamente, depois com essa versão foi feito um branch temporario,
+um branch de backup, então no branch master foi feito um pull para sincronizar o repositorio remoto com o 
+local, ao sincronizar percebeu-se que o ultimo commit era o defeituoso e o antepenultimo estava correto, 
+assim foi gerado um novo commit revertendo a ultima alteração e adicionando a ultima versão correta, 
+com esta ação o repositorio local ficou a frente do repositorio remoto tornando possivel fazer o push 
+da edição mais recente correta. 
 
 *Android Token :
 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 válido por 30 dias.
