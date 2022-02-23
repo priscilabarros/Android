@@ -2,6 +2,40 @@ Formação Android - Android parte I: Crie sua primeira app mobile
 
 Aula 2: parte 1 - iniciar
 
+
+* Arquivo estático - é um arquivo específico para layout pois contem declarações 
+estáticas como numeração de pixel imagens e tamanhos, geralmente os arquivos 
+estáticos são mantidos nos resorces na pasta "res".
+
+A pasta res é subdividida em outras três partes:
+
+drawble - representa uma pasta onde ficarão todas as imagens estáticas. 
+EX: ícones, imagens que aparecerão em uma view.
+
+mipimap - outra pasta destinada a ícones.
+
+values - trata dos valores por exemplo valor de cores, strings e etc. Também 
+possui o arquivo style que pode alterar o tema do app.
+
+
+O ideal é pega o arquivo e mandar como 
+referencia para o setContentView.
+
+Como Criar um arquivo estatico: 
+1 - Criar um Diretorio de arquivos estaticos para os resources.
+clica com botão direito na pasta res -> New -> Android Resource Directory
+2 - Dentro da janela que abrir 
+Resource Type -> layout -> OK
+3 - Criar um arquivo para representar o Layout
+clica com botão direito na pasta layout -> New -> Layout Resource File
+4 - Dentro da janela que abrir 
+File Name -> preencher EX: activity_main
+Root Element -> Lynear Layout -> OK
+5 - Criação do Arquivo concluida ( essa visualização é um editor visual capaz
+de modificar o layout de maneira estatica.Podendo arrastar e soltar objetos 
+do layout para editar sua posição = dragdrop. )
+
+
 * Toast - componente capaz de mostrar mensagens, ele mostra amensagem e depois desaparece 
 Ex de Toast:  Toast.makeText(context: this, "Hello ", Toast.LENGTH_SHORT).show();
 1º Argumento : context - é uma classe base para qualquer tipo de entidade do Android, é a partir 
