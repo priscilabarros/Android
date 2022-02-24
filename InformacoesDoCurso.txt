@@ -1,6 +1,32 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 3: parte 4 - iniciar
+Aula 4: parte 5 - iniciar
+* app bar - barra superior no app geralmente leva o titulo da view
+
+* como adicionar uma app bar - através do layout ou por meio de uma outra activity
+chamada AppCompatActivity que dá suporte a novidades de androids mais recentes.
+EX:
+//adiciona a app bar
+public class MainActivity extends AppCompatActivity 
+
+//Permite edição do titulo, trecho de codigo colocado dentro do onCreate
+setTitle("Lista de alunos");
+
+* Imagens disponibilizadas - o Android disponibiliza algumas imagens de icones
+para facilitar a implementação dos desenvolvedores para acessar essas imagens 
+você pode ir na pasta "res" -> drawble -> ALT + insert ou New -> Image Asert
+
+Icon type: Action Bar and Tab Icon
+Name: ic_action_novo_aluno
+Asert Type: Clip art
+Clip Art: add -> ok
+Trim: no (alinha com todo o espaço da imagem )
+Theme: Holo_Dark
+
+* Adicionar uma imagem no layout - pode ser adicionada atraves do método Sorce (src)
+EX:
+android:src="@drawble/ic_action_novo_aluno"
+
 * Medidas no Layout - para desenvolver o layout no android pode se usar o design
 no metodo dragdrop ou usar o espaço de codificação em xml. O documento de xml 
 permite uma edição mais focada nos detalhes permitindo editar pixel a pixel as 
@@ -17,6 +43,8 @@ app:fabSize="normal" - altera tamanho do botão FAB
 
 android:id="@+id/floatingActionButton2" - declaração de um id de um objeto no 
 layout.
+
+DP (Densidade por Pixel) - unidade de medida utilizada pelo layout do android
 
 * Conversão de Views - altera o tipo da View raiz, por exemplo pode alterar
 um Lynear Layout para um Constraint Layout.
