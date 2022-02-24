@@ -1,6 +1,43 @@
 Formação Android - Android parte I: Crie sua primeira app mobile
 
-Aula 2: parte 1 - iniciar
+Aula 3: parte 4 - iniciar
+* Medidas no Layout - para desenvolver o layout no android pode se usar o design
+no metodo dragdrop ou usar o espaço de codificação em xml. O documento de xml 
+permite uma edição mais focada nos detalhes permitindo editar pixel a pixel as 
+imagens e alocar objetos com maior precisão se necessário.
+
+android:layout_width="match_parent" - é uma configuração que ajustara a medida 
+de um objeto de acordo com o objeto pai.
+
+android:layout_width="wrap_content" - também é uma configuração que ajustara a 
+medida de um objeto entretanto seu ajuste será de acordo com o crescimento do 
+conteudo.
+
+app:fabSize="normal" - altera tamanho do botão FAB
+
+android:id="@+id/floatingActionButton2" - declaração de um id de um objeto no 
+layout.
+
+* Conversão de Views - altera o tipo da View raiz, por exemplo pode alterar
+um Lynear Layout para um Constraint Layout.
+
+* Como alterar o Layout:
+No Component Tree botão direito em cima do LinearLayout -> ConvertView
+-> Relative Layout
+
+
+* Todos os Componentes são Views - quando neessário colocar um componente 
+novo tem que colocar uma view nova. Só temos um elemento Raiz que pode ser 
+o LynearLayout ou o Constraint Layout.
+
+Nem toda View pode receber outras views dentro dela, por exemplo o TextView não 
+poderia ter um TextView dentro do mesmo. Mas existem Views próprias que podem 
+fazer isso, ou seja ter views filhas como o Lynear Layout ou o List View e etc, 
+o nome dessas views é ViewGroup.
+
+* Float Action Button - componente já disponibilizado pelo android em uma view
+especifica.
+
 * List View - uma lista apresentada no app, alimentada através de um banco de
 dados, ou de um arquivo, de um serviço online ou etc. fazendo o vinculo entre
 os componentes do arquivo estatico com os dados de um código fonte. 
